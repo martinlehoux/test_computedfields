@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "test-computedfields"
+version = "0.1.0"
+description = ""
+authors = ["Martin Kagamino Lehoux <martin@lehoux.net>"]
+readme = "README.md"
+packages = [{include = "test_computedfields"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+django-computedfields = "^0.2.3"
+graphviz = "^0.20.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
